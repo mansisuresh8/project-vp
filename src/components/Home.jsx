@@ -56,9 +56,9 @@ function Home() {
       </section>
 
       {/* Vedio Section */}
-      <section className="bg-black  px-14 py-16">
+      <section className="bg-black flex justify-center items-center px-14 py-16">
         <div className=" w-28">
-          <p className="text-2xl text-white text-center">
+          <p className="text-2xl text-white text-start">
             Convey your brand story through unforgettable visual design.
             Captivate your audience and retain engagement with sleek
             <span className="font-bold text-orange-700">UI/UX</span>.
@@ -103,10 +103,10 @@ function Home() {
             className="object-contain w-96"
           />
         </div>
-        <div className="px-40 py-20">
-          <p>Branding & Guidelines</p>
-          <p>Welcome to the world of seamless branding! </p>
-          <p>
+        <div className="px-20 py-20">
+          <p className="text-2xl font-bold">Branding & Guidelines</p>
+          <p className="py-3 text-xl">Welcome to the world of <span className="text-orange-700">seamless branding!</span> </p>
+          <p className="text-xl">
             Compelling brand identities and cohesive design systems for your
             digital products. Branding is included with all packages!{" "}
           </p>

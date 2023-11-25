@@ -17,7 +17,7 @@ function Header() {
         <p>WORK</p>
         <p>ABOUT</p>
         <p>CONTACT</p>
-        <p className="text-red-700 border border-solid rounded border-red-500 px-4 py-1">
+        <p className="text-red-700 border rounded border-red-500 px-4 py-1">
           Lest's Talk
         </p>
       </section>

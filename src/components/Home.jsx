@@ -1,6 +1,8 @@
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
-
+import { FaBehanceSquare } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 function Home() {
   return (
@@ -64,10 +66,14 @@ function Home() {
             Convey your brand story through unforgettable visual design. <br />
             Captivate your audience and retain engagement with <br />
             sleek
-            <span className="font-bold text-orange-700">UI/UX</span>.
+            <span className="font-bold text-orange-700"> UI/UX</span>.
           </p>
         </div>
-        <div></div>
+        <section className="flex justify-between items-center">
+          <div className="flex justify-between items-center">
+            <video src="./assets/home/video-1.mp4"></video>
+          </div>
+        </section>
       </section>
 
       {/* Designs that tell your story. */}
@@ -127,19 +133,19 @@ function Home() {
               <div className="w-10 me-4">
                 <img src="./assets/home/icon-2.png" alt="" className="w-full" />
               </div>
-              <p className="">Awesome visual Identities & logo(s)</p>
+              <p>Awesome visual Identities & logo(s)</p>
             </div>
-            <div>
-              <p className="border rounded-full flex justify-between items-center text-lg px-4 py-2">
-                <img src="./assets/home/icon-2.png" alt="" />
-                Brand guidelines & style guides
-              </p>
+            <div className="border rounded-full flex justify-start items-center m text-lg px-4 py-2">
+              <div className="w-10 me-4">
+                <img src="./assets/home/icon-2.png" alt="" className="w-full" />
+              </div>
+              <p>Brand guidelines & style guides</p>
             </div>
-            <div>
-              <p className="border rounded-full flex justify-between items-center text-lg px-4 py-2">
-                <img src="./assets/home/icon-2.png" alt="" />
-                Brand collateral + social media
-              </p>
+            <div className="border rounded-full flex justify-start items-center m text-lg px-4 py-2">
+              <div className="w-10 me-4">
+                <img src="./assets/home/icon-2.png" alt="" className="w-full" />
+              </div>
+              <p>Brand collateral + social media</p>
             </div>
           </div>
         </div>
@@ -169,7 +175,7 @@ function Home() {
       {/* Check out  */}
 
       <section className="flex flex-col justify-center items-center px-20 gap-x-10 my-8">
-      <div className="my-8">
+        <div className="my-8">
           <p className="text-center text-3xl">
             Check out what <span className="font-semibold"> our clients</span>{" "}
             have to say about{" "}
@@ -180,85 +186,139 @@ function Home() {
         <section className="grid grid-cols-3 gap-8">
           <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
             <img src="./assets/home/icon-3.png" alt="" />
-            <p className="">
+            <p className="font-semibold">
               Exceptional web design that exceeded our expectations
             </p>
             <div>
-              <p>
+              <p className="py-2">
                 Our website redesign surpassed our expectations. Aiko's
                 attention to detail and creativity resulted in a visually
                 stunning and user-friendly site.
               </p>
             </div>
-          </div>
-
-          <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
-            <img src="./assets/home/icon-3.png" alt="" />
-            <p className="">
-              Exceptional web design that exceeded our expectations
-            </p>
-            <div>
-              <p>
-                Our website redesign surpassed our expectations. Aiko's
-                attention to detail and creativity resulted in a visually
-                stunning and user-friendly site.
-              </p>
+            <div className="flex justify-center items-center gap-2">
+              <div className=" line-clamp-3">
+                <img src="./assets/home/icon-4.png" alt="" />
+              </div>
+              <div className="">
+                <p className="font-bold">John Smith</p>
+                <p>ABC Company</p>
+              </div>
             </div>
           </div>
 
           <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
             <img src="./assets/home/icon-3.png" alt="" />
-            <p className="">
+            <p className="font-semibold">
               Exceptional web design that exceeded our expectations
             </p>
             <div>
-              <p>
+              <p className="py-2">
                 Our website redesign surpassed our expectations. Aiko's
                 attention to detail and creativity resulted in a visually
                 stunning and user-friendly site.
               </p>
             </div>
-          </div>
-
-          <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
-            <img src="./assets/home/icon-3.png" alt="" />
-            <p className="">
-              Exceptional web design that exceeded our expectations
-            </p>
-            <div>
-              <p>
-                Our website redesign surpassed our expectations. Aiko's
-                attention to detail and creativity resulted in a visually
-                stunning and user-friendly site.
-              </p>
+            <div className="flex justify-center items-center gap-2">
+              <div className=" line-clamp-3">
+                <img src="./assets/home/icon-4.png" alt="" />
+              </div>
+              <div className="">
+                <p className="font-bold">John Smith</p>
+                <p>ABC Company</p>
+              </div>
             </div>
           </div>
 
           <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
             <img src="./assets/home/icon-3.png" alt="" />
-            <p className="">
+            <p className="font-semibold">
               Exceptional web design that exceeded our expectations
             </p>
             <div>
-              <p>
+              <p className="py-2">
                 Our website redesign surpassed our expectations. Aiko's
                 attention to detail and creativity resulted in a visually
                 stunning and user-friendly site.
               </p>
             </div>
+            <div className="flex justify-center items-center gap-2">
+              <div className=" line-clamp-3">
+                <img src="./assets/home/icon-4.png" alt="" />
+              </div>
+              <div className="">
+                <p className="font-bold">John Smith</p>
+                <p>ABC Company</p>
+              </div>
+            </div>
           </div>
 
           <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
             <img src="./assets/home/icon-3.png" alt="" />
-            <p className="">
+            <p className="font-semibold">
               Exceptional web design that exceeded our expectations
             </p>
             <div>
-              <p>
+              <p className="py-2">
                 Our website redesign surpassed our expectations. Aiko's
                 attention to detail and creativity resulted in a visually
                 stunning and user-friendly site.
               </p>
+            </div>
+            <div className="flex justify-center items-center gap-2">
+              <div className=" line-clamp-3">
+                <img src="./assets/home/icon-4.png" alt="" />
+              </div>
+              <div className="">
+                <p className="font-bold">John Smith</p>
+                <p>ABC Company</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
+            <img src="./assets/home/icon-3.png" alt="" />
+            <p className="font-semibold">
+              Exceptional web design that exceeded our expectations
+            </p>
+            <div>
+              <p className="py-2">
+                Our website redesign surpassed our expectations. Aiko's
+                attention to detail and creativity resulted in a visually
+                stunning and user-friendly site.
+              </p>
+            </div>
+            <div className="flex justify-center items-center gap-2">
+              <div className=" line-clamp-3">
+                <img src="./assets/home/icon-4.png" alt="" />
+              </div>
+              <div className="">
+                <p className="font-bold">John Smith</p>
+                <p>ABC Company</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
+            <img src="./assets/home/icon-3.png" alt="" />
+            <p className="font-semibold">
+              Exceptional web design that exceeded our expectations
+            </p>
+            <div>
+              <p className="py-2">
+                Our website redesign surpassed our expectations. Aiko's
+                attention to detail and creativity resulted in a visually
+                stunning and user-friendly site.
+              </p>
+            </div>
+            <div className="flex justify-center items-center gap-2">
+              <div className=" line-clamp-3">
+                <img src="./assets/home/icon-4.png" alt="" />
+              </div>
+              <div className="">
+                <p className="font-bold">John Smith</p>
+                <p>ABC Company</p>
+              </div>
             </div>
           </div>
         </section>
@@ -275,39 +335,46 @@ function Home() {
             <span className="text-orange-600 font-bold"> Time</span>.
           </p>
         </div>
-      </section>
-
-      <section>
         <div className="flex justify-between items-start">
-          <div className=" px-14 py-20">
+          <div className=" px-14 py-20 w-full">
             <img src="./assets/home/photo-3.png" alt="" />
           </div>
-          <div className="px-14 py-20">
+          <div className="px-14 py-20 w-full">
             <img src="./assets/home/photo-4.png" alt="" />
           </div>
-          <div className="px-14 py-20">
+          <div className="px-14 py-20 w-full">
             <img src="./assets/home/photo-5.png" alt="" />
           </div>
         </div>
       </section>
 
       <section>
-        <div className=" py-14 flex justify-center items-center">
-          <div className="rounded-full"></div>
-          <img src="./assets/home/photo-6.png" alt="" />
+        <div className="flex justify-center items-center">
+          <img src="./assets/home/photo-6.png" alt="" className="w-25" />
         </div>
-        <div className="text-center ">
+        <div className="text-center text-2xl">
           <p className="">
             <span className="font-bold">Social</span> Links
           </p>
         </div>
-        <div className="flex justify-center items-center w-full">
-        <FaInstagram />
+        <div className="flex flex-row justify-center items-center gap-2 text-2xl">
+          <div className="">
+            <FaBehanceSquare />
+          </div>
+          <div className="">
+            <FaXTwitter />
+          </div>
+          <div className="">
+            <FaInstagram />
+          </div>
+          <div className="">
+            <FaLinkedin />
+          </div>
         </div>
       </section>
 
       {/* About */}
-      <section className="bg-black flex justify-between items-center box-content gap-x-36 gap-y-44 py-4 px-20 relative">
+      <section className="bg-black flex justify-center items-center rounded-xl mx-20 my-8">
         <div className="w-539.795px h-559px flex justify-between items-start">
           <img
             src="./assets/home/photo-1.png"
@@ -315,7 +382,7 @@ function Home() {
             className="object-contain"
           />
         </div>
-        <div className="absolute bottom-10 start-10">
+        <div className="absolute bottom-0 start-0">
           <p className="text-white">Vishesh Patel</p>
         </div>
         <div className="py-16">
@@ -329,7 +396,7 @@ function Home() {
             </p>
           </div>
           <div>
-            <p className="text-white text-xl">
+            <p className="text-white text-lg">
               Your website is your digital storefront, and it should create an
               unforgettable impression. Let me design and develop a website that
               reflects your brand's personality and creates a lasting impression

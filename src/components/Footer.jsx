@@ -46,7 +46,16 @@ function Footer() {
               alt=""
               className="object-contain w-full"
             />
-            <p className="text-white">Upscal<span className=""> <img src="./assets/home/icon-7.png" alt="" className="w-4"/></span> ng <span className="text-orange-500"> ideas</span> </p>
+            <div className="">
+              <p className="text-white">
+                Upscal
+                <span className="">
+                  {" "}
+                  <img src="./assets/home/icon-7.png" alt="" className="w-4" />
+                </span>{" "}
+                ng <span className="text-orange-500"> ideas</span>{" "}
+              </p>
+            </div>
           </div>
           <div className="flex justify-center items-center">
             <div className="text-orange-600 me-2">

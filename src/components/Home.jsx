@@ -68,12 +68,11 @@ function Home() {
             sleek
             <span className="font-bold text-orange-700"> UI/UX</span>.
           </p>
-        </div>
-        <section className="flex justify-between items-center">
-          <div className="flex justify-between items-center">
-            <video src="./assets/home/video-1.mp4"></video>
+          <div className="flex justify-center items-center bg-red-200 border shadow-2xl">
+            <video src="./assets/home/video-1.mp4" className=""></video>
           </div>
-        </section>
+        </div>
+
       </section>
 
       {/* Designs that tell your story. */}

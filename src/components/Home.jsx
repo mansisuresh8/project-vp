@@ -3,15 +3,21 @@ import { FaInstagram } from "react-icons/fa";
 import { FaBehanceSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa6";
+import { GoDotFill } from "react-icons/go";
 
 function Home() {
   return (
     <div className="">
       {/* hero section */}
+
       <section className="bg-black flex justify-between items-center py-4 px-20 relative">
         <div className="py-16">
-          <div className="flex justify-start items-center">
+          <div className="flex justify-between items-start">
             <p className="text-lg text-red-700 border rounded border-red-500 px-4 py-1">
+              <div className="text-red-700">
+                <GoDotFill />
+              </div>
               Hey, I’m Vishesh ヅ
             </p>
           </div>
@@ -36,11 +42,15 @@ function Home() {
           />
         </div>
         <div className="absolute bottom-10 end-10">
+          <div className="text-red-500">
+            <FaDownload />
+          </div>
           <p className="text-white">My Services</p>
         </div>
       </section>
 
       {/* Worked with 12+ Global Enterprises */}
+
       <section className="my-14">
         <div className="text-center text-xl">
           <p>
@@ -60,6 +70,7 @@ function Home() {
       </section>
 
       {/* Vedio Section */}
+
       <section className="bg-black flex justify-center items-center rounded mx-20">
         <div className="">
           <p className="text-4xl text-white text-center py-20">
@@ -69,13 +80,19 @@ function Home() {
             <span className="font-bold text-orange-700"> UI/UX</span>.
           </p>
           <div className="flex justify-center items-center w-full">
-            <video src="./assets/home/video-1.mp4"autoPlay loop muted className="w-full px-60 py-28"></video>
+            <video
+              src="./assets/home/video-1.mp4"
+              autoPlay
+              loop
+              muted
+              className="w-full px-60 py-28"
+            ></video>
           </div>
         </div>
-
       </section>
 
       {/* Designs that tell your story. */}
+
       <section className="my-10">
         <div>
           <p className="text-3xl text-center">
@@ -151,6 +168,7 @@ function Home() {
       </section>
 
       {/* Explore Projects */}
+
       <section className="my-16 bg-[url('./assets/home/bg-explore.png')] bg-cover h-[90dvh] bg-no-repeat	bg-center	">
         <div className="bg-black w-full h-full opacity-70 flex justify-center items-center py-8">
           <div className="text-white">

@@ -40,22 +40,12 @@ function Footer() {
         </section>
 
         <section className="w-full my-8 flex justify-between items-center">
-          <div className="flex justify-start items-center w-28">
+          <div className="flex justify-start items-center w-28 ">
             <img
-              src="./assets/home/logo-2.png"
+              src="./assets/home/logo-3.jpeg"
               alt=""
               className="object-contain w-full"
             />
-            <div className="">
-              <p className="text-white">
-                Upscal
-                <span className="">
-                  {" "}
-                  <img src="./assets/home/icon-7.png" alt="" className="w-4" />
-                </span>{" "}
-                ng <span className="text-orange-500"> ideas</span>{" "}
-              </p>
-            </div>
           </div>
           <div className="flex justify-center items-center">
             <div className="text-orange-600 me-2">

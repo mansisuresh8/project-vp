@@ -62,14 +62,14 @@ function Home() {
       {/* Vedio Section */}
       <section className="bg-black flex justify-center items-center rounded mx-20">
         <div className="">
-          <p className="text-2xl text-white text-center py-20">
+          <p className="text-4xl text-white text-center py-20">
             Convey your brand story through unforgettable visual design. <br />
             Captivate your audience and retain engagement with <br />
             sleek
             <span className="font-bold text-orange-700"> UI/UX</span>.
           </p>
-          <div className="flex justify-center items-center bg-red-200 border shadow-2xl">
-            <video src="./assets/home/video-1.mp4" className=""></video>
+          <div className="flex justify-center items-center w-full">
+            <video src="./assets/home/video-1.mp4"autoPlay loop muted className="w-full px-60 py-28"></video>
           </div>
         </div>
 
@@ -327,15 +327,15 @@ function Home() {
 
       <section>
         <div className="">
-          <p className="text-center text-3xl ">
+          <p className="text-center text-3xl py-20 ">
             Crafting <span className="font-bold"> Tomorrow's Experiences</span>:
             A Journey from Vision to <br /> Reality, One
-            <span className="font-bold"> Design</span> at a{" "}
+            <span className="font-bold"> Design</span> at a
             <span className="text-orange-600 font-bold"> Time</span>.
           </p>
         </div>
         <div className="flex justify-between items-start">
-          <div className=" px-14 py-20 w-full">
+          <div className=" px-24 py-20 w-full">
             <img src="./assets/home/photo-3.png" alt="" />
           </div>
           <div className="px-14 py-20 w-full">

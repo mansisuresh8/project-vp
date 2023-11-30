@@ -14,12 +14,12 @@ function Home() {
       <section className="bg-black flex justify-between items-center py-4 px-20 relative">
         <div className="py-16">
           <div className="flex justify-between items-start">
-            <p className="text-lg text-red-700 border rounded border-red-500 px-4 py-1">
-              <div className="text-red-700">
+            <div className="flex justify-center items-center text-lg text-red-700 border rounded border-red-500 px-4 py-1 ">
+              <div>
                 <GoDotFill />
               </div>
-              Hey, I’m Vishesh ヅ
-            </p>
+              <p className="">Hey, I&apos;m Vishesh ヅ</p>
+            </div>
           </div>
           <div className="my-8">
             <p className="text-white text-5xl">
@@ -351,16 +351,16 @@ function Home() {
             <span className="font-bold"> Design</span> at a
             <span className="text-orange-600 font-bold"> Time</span>.
           </p>
-        </div>
-        <div className="flex justify-between items-start">
-          <div className=" px-24 py-20 w-full">
-            <img src="./assets/home/photo-3.png" alt="" />
+        </div>  
+        <div className="flex justify-center items-star">
+          <div className="w-1/2">
+            <img src="./assets/home/photo-3.png" alt="" className="object-contain w-full"/>
           </div>
-          <div className="px-14 py-20 w-full">
-            <img src="./assets/home/photo-4.png" alt="" />
+          <div className="w-full">
+            <img src="./assets/home/photo-4.png" alt="" className="object-contain w-full"/>
           </div>
-          <div className="px-14 py-20 w-full">
-            <img src="./assets/home/photo-5.png" alt="" />
+          <div className="w-1/2">
+            <img src="./assets/home/photo-5.png" alt="" className="object-contain w-full"/>
           </div>
         </div>
       </section>

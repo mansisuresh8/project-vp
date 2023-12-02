@@ -11,9 +11,9 @@ function Home() {
     <div className="">
       {/* hero section */}
 
-      <section className="bg-black flex justify-between items-center py-4 px-20 relative">
+      <section className=" bg-black flex justify-center items-center py-4 px-20 relative flex-col ">
         <div className="py-16">
-          <div className="flex justify-between items-start">
+          <div className=" w-full md:w-1/2 px-4 py-6 md:py-14 md:me-16 flex flex-col justify-center md:justify-between items-start">
             <div className="flex justify-center items-center text-lg text-red-700 border rounded border-red-500 px-4 py-1 ">
               <div>
                 <GoDotFill />
@@ -59,7 +59,7 @@ function Home() {
             <span className="font-bold"> Enterprises</span>
           </p>
         </div>
-        <div className="flex justify-center items-center gap-20 my-5">
+        <div className="flex justify-center items-center gap-4 md:gap-20 my-5 overflow-x-auto">
           <p>Frikly</p>
           <p>Decibel</p>
           <p>Writingo</p>
@@ -169,7 +169,7 @@ function Home() {
 
       {/* Explore Projects */}
 
-      <section className="my-16 bg-[url('./assets/home/bg-explore.png')] bg-cover h-[90dvh] bg-no-repeat	bg-center	">
+      <section className="my-16 bg-[url('./project-vp/assets/home/bg-explore.png')] bg-cover h-[90dvh] bg-no-repeat	bg-center	">
         <div className="bg-black w-full h-full opacity-70 flex justify-center items-center py-8">
           <div className="text-white">
             <p className="text-5xl font-bold">Explore Projects </p>

@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className="bg-black flex justify-center items-center ">
       <section className="flex justify-center items-center py-20 flex-col w-full px-20">
-        <section className=" bg-white flex justify-between items-center w-full border shadow-xl rounded-xl px-10">
+        <section className=" bg-white flex flex-col md:flex-row justify-between items-center w-full border shadow-xl rounded-xl px-10">
           <div className="py-20">
             <div className="">
               <p className="text-4xl ">

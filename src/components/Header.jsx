@@ -3,7 +3,7 @@ import { IoMenu } from "react-icons/io5";
 
 function Header() {
   return (
-    <div className="flex justify-between items-center py-4 bg-black text-white w-full px-4 md:px-20">
+    <div className="flex justify-between items-center py-4 bg-black text-white w-full px-4 md:px-20 cursor-pointer">
       <section>
         <div className="w-14">
           <img

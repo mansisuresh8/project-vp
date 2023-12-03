@@ -3,7 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaBehanceSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { FaDownload } from "react-icons/fa6";
+
 import { GoDotFill } from "react-icons/go";
 
 function Home() {
@@ -11,10 +11,10 @@ function Home() {
     <div className="">
       {/* hero section */}
 
-      <section className=" bg-black flex justify-center items-center py-4 px-20 relative flex-col ">
+      <section className=" bg-black flex justify-between items-center py-4 px-4 md:px-20 relative flex-col md:flex-row">
         <div className="py-16">
-          <div className=" w-full md:w-1/2 px-4 py-6 md:py-14 md:me-16 flex flex-col justify-center md:justify-between items-start">
-            <div className="flex justify-center items-center text-lg text-red-700 border rounded border-red-500 px-4 py-1 ">
+          <div className=" w-full px-4 py-6 flex flex-col justify-center items-start">
+            <div className="flex justify-between items-center text-lg text-red-700 border rounded border-red-500 px-4 py-1 ">
               <div>
                 <GoDotFill />
               </div>
@@ -41,17 +41,19 @@ function Home() {
             className="object-contain"
           />
         </div>
-        <div className="absolute bottom-10 end-10">
-          <div className="text-red-500">
-            <FaDownload />
+        <div className="cursor-pointer flex justify-between items-start">
+          <div className="absolute bottom-10 end-10 text-red-500">
+            <div className="absolute mr-28 py-1 w-full">
+              <img src="./assets/home/icon-8.png" alt="" className="object-contain animate-bounce"/>
+            </div>
+            <p className="text-white mx-10"> MY SERVICES</p>
           </div>
-          <p className="text-white">My Services</p>
         </div>
       </section>
 
       {/* Worked with 12+ Global Enterprises */}
 
-      <section className="my-14">
+      <section className="my-14  md:flex-row">
         <div className="text-center text-xl">
           <p>
             Worked with
@@ -59,7 +61,7 @@ function Home() {
             <span className="font-bold"> Enterprises</span>
           </p>
         </div>
-        <div className="flex justify-center items-center gap-4 md:gap-20 my-5 overflow-x-auto">
+        <div className="flex justify-center items-center gap-4 md:gap-20 my-5 overflow-x-auto scroll-smooth md:scroll-auto">
           <p>Frikly</p>
           <p>Decibel</p>
           <p>Writingo</p>
@@ -71,7 +73,7 @@ function Home() {
 
       {/* Vedio Section */}
 
-      <section className="bg-black flex justify-center items-center rounded mx-20">
+      <section className="bg-black flex justify-center items-center rounded mx-20 ">
         <div className="">
           <p className="text-4xl text-white text-center py-20">
             Convey your brand story through unforgettable visual design. <br />
@@ -85,7 +87,7 @@ function Home() {
               autoPlay
               loop
               muted
-              className="w-full px-60 py-28"
+              className="w-full md:px-52 md:py-20 px-70 py-28"
             ></video>
           </div>
         </div>
@@ -124,7 +126,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="flex justify-center items-center mx-40 border shadow-xl rounded-xl">
+      <section className="flex justify-center items-center mx-40 border shadow-xl rounded-xl ">
         <div className="w-full">
           <img
             src="./assets/home/photo-2.png"
@@ -157,7 +159,7 @@ function Home() {
               </div>
               <p>Brand guidelines & style guides</p>
             </div>
-            <div className="border rounded-full flex justify-start items-center m text-lg px-4 py-2">
+            <div className="border rounded-full flex justify-start items-center m text-lg px-4 py-2  md:justify-items-start">
               <div className="w-10 me-4">
                 <img src="./assets/home/icon-2.png" alt="" className="w-full" />
               </div>
@@ -200,7 +202,7 @@ function Home() {
             <br /> <span className="font-semibold"> me and my team.</span>
           </p>
         </div>
-        <section className="grid grid-cols-3 gap-8">
+        <section className="grid md:grid-cols-3 gap-8 grid-cols-2">
           <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
             <img src="./assets/home/icon-3.png" alt="" />
             <p className="font-semibold">
@@ -351,16 +353,28 @@ function Home() {
             <span className="font-bold"> Design</span> at a
             <span className="text-orange-600 font-bold"> Time</span>.
           </p>
-        </div>  
+        </div>
         <div className="flex justify-center items-star">
           <div className="w-1/2">
-            <img src="./assets/home/photo-3.png" alt="" className="object-contain w-full"/>
+            <img
+              src="./assets/home/photo-3.png"
+              alt=""
+              className="object-contain w-full"
+            />
           </div>
           <div className="w-full">
-            <img src="./assets/home/photo-4.png" alt="" className="object-contain w-full"/>
+            <img
+              src="./assets/home/photo-4.png"
+              alt=""
+              className="object-contain w-full"
+            />
           </div>
           <div className="w-1/2">
-            <img src="./assets/home/photo-5.png" alt="" className="object-contain w-full"/>
+            <img
+              src="./assets/home/photo-5.png"
+              alt=""
+              className="object-contain w-full"
+            />
           </div>
         </div>
       </section>
@@ -391,17 +405,20 @@ function Home() {
       </section>
 
       {/* About */}
-      <section className="bg-black flex justify-center items-center rounded-xl mx-20 my-8">
-        <div className="w-539.795px h-559px flex justify-between items-start">
+      <section className="bg-black flex justify-center items-center rounded-xl mx-20 my-8 relative">
+        <div className="flex justify-start items-center">
           <img
             src="./assets/home/photo-1.png"
             alt=""
             className="object-contain"
           />
+          <div className="absolute bottom-4 start-4">
+            <div className="flex justify-start items- border rounded border-grey-200 px-4 py-2 w-full">
+              <p className="text-white"> Vishesh Patel</p>
+            </div>
+          </div>
         </div>
-        <div className="absolute bottom-0 start-0">
-          <p className="text-white">Vishesh Patel</p>
-        </div>
+
         <div className="py-16">
           <div className="flex justify-start items-center px-4 py-1">
             <p className="text-lg text-white">About</p>

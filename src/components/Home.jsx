@@ -13,7 +13,7 @@ function Home() {
       <section className=" bg-black flex justify-between items-center py-4 px-4 md:px-20 relative flex-col md:flex-row">
         <div className="py-16">
           <div className=" w-full px-4 py-6 flex flex-col justify-center items-start">
-            <div className="flex justify-between items-center text-lg text-red-700 border rounded border-red-500 px-4 py-1 ">
+            <div className="flex justify-between items-center text-lg text-red-700 border rounded border-red-500 px-4 py-1 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
               <div>
                 <GoDotFill />
               </div>
@@ -43,9 +43,13 @@ function Home() {
         <div className="cursor-pointer flex justify-between items-start">
           <div className="absolute bottom-10 end-10 text-red-500">
             <div className="absolute mr-28 py-1 w-full">
-              <img src="./assets/home/icon-8.png" alt="" className="object-contain animate-bounce"/>
+              <img
+                src="./assets/home/icon-8.png"
+                alt=""
+                className="object-contain animate-bounce"
+              />
             </div>
-            <p className="text-white mx-10"> MY SERVICES</p>
+            <p className="text-white mx-10 "> MY SERVICES</p>
           </div>
         </div>
       </section>
@@ -60,7 +64,7 @@ function Home() {
             <span className="font-bold"> Enterprises</span>
           </p>
         </div>
-        <div className="flex justify-center items-center gap-4 md:gap-20 my-5 ">
+        <div className="flex justify-center items-center gap-8 md:gap-20 my-8 hidden-scrollbar overflow-x-auto whitespace-nowrap ">
           <p>Frikly</p>
           <p>Decibel</p>
           <p>Writingo</p>
@@ -80,7 +84,7 @@ function Home() {
             sleek
             <span className="font-bold text-orange-700"> UI/UX</span>.
           </p>
-          <div className="flex justify-center items-center w-full">
+          <div className="flex justify-center items-center w-full ">
             <video
               src="./assets/home/video-1.mp4"
               autoPlay
@@ -106,7 +110,7 @@ function Home() {
             brand to life in vibrant colors and captivating visuals.
           </p>
         </div>
-        <div className="flex justify-center items-center my-5">
+        <div className="flex justify-center items-center my-5 flex-col md:flex-row gap-4 md:gap-0">
           <button className="text-black-700 rounded-full border-2 border-black px-4 py-1">
             Branding
           </button>
@@ -125,7 +129,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="flex justify-center items-center md:mx-40 mx-20  border shadow-xl rounded-xl flex-col md:flex-row ">
+      <section className="flex justify-center items-center md:mx-40 px-4  border shadow-xl rounded-xl flex-col md:flex-row ">
         <div className="w-full">
           <img
             src="./assets/home/photo-2.png"
@@ -192,16 +196,16 @@ function Home() {
 
       {/* Check out  */}
 
-      <section className="flex flex-col justify-center items-center px-20 gap-x-10 my-8">
-        <div className="my-8">
-          <p className="text-center text-3xl">
+      <section className="flex flex-col justify-center items-center md:px-20 px-8 py-4 gap-x-10 ">
+        <div className="md:my-8 my-4">
+          <p className="text-center md:text-3xl text-lg">
             Check out what <span className="font-semibold"> our clients</span>{" "}
             have to say about{" "}
             <span className="text-orange-600 font-semibold"> working</span> with{" "}
             <br /> <span className="font-semibold"> me and my team.</span>
           </p>
         </div>
-        <section className="grid md:grid-cols-3 gap-8 grid-cols-2">
+        <section className="grid md:grid-cols-3 gap-8 sm:grid-cols-2 grid-cols-1 ">
           <div className="flex justify-start items-start flex-col border shadow-md rounded-md p-4">
             <img src="./assets/home/icon-3.png" alt="" />
             <p className="font-semibold">
@@ -380,7 +384,11 @@ function Home() {
 
       <section>
         <div className="flex justify-center items-center">
-          <img src="./assets/home/photo-6.png" alt="" className="md:w-32 w-28" />
+          <img
+            src="./assets/home/photo-6.png"
+            alt=""
+            className="md:w-32 w-28"
+          />
         </div>
         <div className="text-center text-2xl">
           <p className="">
@@ -404,12 +412,12 @@ function Home() {
       </section>
 
       {/* About */}
-      <section className="bg-black flex justify-center items-center rounded-xl md:mx-20 md:my-8 mx-4 my-4 relative">
+      <section className="bg-black flex justify-center items-center rounded-xl md:mx-20 md:my-8 mx-4 my-4 relative flex-col-reverse md:flex-row">
         <div className="flex justify-start tems-center">
           <img
             src="./assets/home/photo-1.png"
             alt=""
-            className="object-contain"
+            className="object-contain "
           />
           <div className="absolute bottom-4 start-4">
             <div className="flex justify-start items- border rounded border-grey-200 px-4 py-2 w-full">

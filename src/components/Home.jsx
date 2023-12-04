@@ -3,7 +3,6 @@ import { FaInstagram } from "react-icons/fa";
 import { FaBehanceSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-
 import { GoDotFill } from "react-icons/go";
 
 function Home() {
@@ -22,7 +21,7 @@ function Home() {
             </div>
           </div>
           <div className="my-8">
-            <p className="text-white text-5xl">
+            <p className="text-white md:text-5xl text-3xl">
               I Create Superior Visual Design for Web, App, Sass & Social Media
             </p>
           </div>
@@ -34,7 +33,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="w-539.795px h-559px flex justify-between items-end">
+        <div className="flex justify-between items-end">
           <img
             src="./assets/home/photo-1.png"
             alt=""
@@ -61,7 +60,7 @@ function Home() {
             <span className="font-bold"> Enterprises</span>
           </p>
         </div>
-        <div className="flex justify-center items-center gap-4 md:gap-20 my-5 overflow-x-auto scroll-smooth md:scroll-auto">
+        <div className="flex justify-center items-center gap-4 md:gap-20 my-5 ">
           <p>Frikly</p>
           <p>Decibel</p>
           <p>Writingo</p>
@@ -73,9 +72,9 @@ function Home() {
 
       {/* Vedio Section */}
 
-      <section className="bg-black flex justify-center items-center rounded mx-20 ">
+      <section className="bg-black flex justify-center items-center rounded md:mx-20 mx-px">
         <div className="">
-          <p className="text-4xl text-white text-center py-20">
+          <p className="md:text-4xl text-1xl text-white text-center py-20">
             Convey your brand story through unforgettable visual design. <br />
             Captivate your audience and retain engagement with <br />
             sleek
@@ -126,7 +125,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="flex justify-center items-center mx-40 border shadow-xl rounded-xl ">
+      <section className="flex justify-center items-center md:mx-40 mx-20  border shadow-xl rounded-xl flex-col md:flex-row ">
         <div className="w-full">
           <img
             src="./assets/home/photo-2.png"
@@ -134,7 +133,7 @@ function Home() {
             className="object-contain w-full"
           />
         </div>
-        <div className="mx-8">
+        <div className="mx-8 my-4">
           <p className="text-2xl font-bold ">Branding & Guidelines</p>
           <p className="py-3 text-xl">
             Welcome to the world of{" "}
@@ -347,14 +346,14 @@ function Home() {
 
       <section>
         <div className="">
-          <p className="text-center text-3xl py-20 ">
+          <p className="text-center md:text-3xl text-2xl py-20 ">
             Crafting <span className="font-bold"> Tomorrow's Experiences</span>:
             A Journey from Vision to <br /> Reality, One
             <span className="font-bold"> Design</span> at a
             <span className="text-orange-600 font-bold"> Time</span>.
           </p>
         </div>
-        <div className="flex justify-center items-star">
+        <div className="flex justify-center items-star flex-col items-center md:flex-row">
           <div className="w-1/2">
             <img
               src="./assets/home/photo-3.png"
@@ -381,7 +380,7 @@ function Home() {
 
       <section>
         <div className="flex justify-center items-center">
-          <img src="./assets/home/photo-6.png" alt="" className="w-25" />
+          <img src="./assets/home/photo-6.png" alt="" className="md:w-32 w-28" />
         </div>
         <div className="text-center text-2xl">
           <p className="">
@@ -405,8 +404,8 @@ function Home() {
       </section>
 
       {/* About */}
-      <section className="bg-black flex justify-center items-center rounded-xl mx-20 my-8 relative">
-        <div className="flex justify-start items-center">
+      <section className="bg-black flex justify-center items-center rounded-xl md:mx-20 md:my-8 mx-4 my-4 relative">
+        <div className="flex justify-start tems-center">
           <img
             src="./assets/home/photo-1.png"
             alt=""
@@ -421,16 +420,16 @@ function Home() {
 
         <div className="py-16">
           <div className="flex justify-start items-center px-4 py-1">
-            <p className="text-lg text-white">About</p>
+            <p className="md:text-4xl text-2xl text-white">About</p>
           </div>
           <div className="my-8">
-            <p className="text-white text-5xl">
+            <p className="text-white md:text-5xl text-3xl">
               A website that leaves a lasting <br />{" "}
               <span className="text-orange-600">impression!</span>
             </p>
           </div>
           <div>
-            <p className="text-white text-lg">
+            <p className="text-white md:text-lg text-sm">
               Your website is your digital storefront, and it should create an
               unforgettable impression. Let me design and develop a website that
               reflects your brand's personality and creates a lasting impression

@@ -10,11 +10,11 @@ import {
 function Footer() {
   return (
     <div className="bg-black flex justify-center items-center ">
-      <section className="flex justify-center items-center py-20 flex-col w-full px-20">
+      <section className="flex justify-center items-center md:py-20 py-10 px-10 flex-col w-full md:px-20">
         <section className=" bg-white flex flex-col md:flex-row justify-between items-center w-full border shadow-xl rounded-xl px-10">
-          <div className="py-20">
+          <div className="md:py-20 py-10">
             <div className="">
-              <p className="text-4xl ">
+              <p className="md:text-4xl text-3xl ">
                 Ready to setup your <br /> Brand to
                 <span className="font-bold"> Next Level?</span>
               </p>
@@ -26,7 +26,7 @@ function Footer() {
                 <div className="w-6 ms-4">
                   <img src="./assets/home/icon-5.png" alt="" />
                 </div>
-                <button className="flex justify-center items-center text-white px-4 py-2 text-lg">
+                <button className="flex justify-center  items-center text-white px-4 py-2 text-lg">
                   Book A Call
                 </button>
               </div>

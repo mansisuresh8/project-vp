@@ -357,12 +357,12 @@ function Home() {
             <span className="text-orange-600 font-bold"> Time</span>.
           </p>
         </div>
-        <div className="flex md:justify-center items-star flex-col md:items-center justify-between  md:flex-row">
-          <div className="w-1/2 md:order-none order-2 ">
+        <div className="flex md:justify-center items-star flex-col md:items-center justify-between md:flex-row">
+          <div className="w-1/2 md:order-none order-2 float-none">
             <img
               src="./assets/home/photo-3.png"
               alt=""
-              className="md:object-contain w-full"
+              className="object-contain w-full"
             />
           </div>
           <div className="w-full md:order-none">
@@ -372,11 +372,11 @@ function Home() {
               className="md:object-contain w-full"
             />
           </div>
-          <div className="w-1/2 md:order-none order-3">
+          <div className="w-1/2 md:order-none order-2 float-right ">
             <img
               src="./assets/home/photo-5.png"
               alt=""
-              className="md:object-contain w-full"
+              className="object-contain w-full"
             />
           </div>
         </div>

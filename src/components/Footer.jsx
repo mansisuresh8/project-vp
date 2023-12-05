@@ -14,19 +14,19 @@ function Footer() {
         <section className=" bg-white flex flex-col md:flex-row justify-between items-center w-full border shadow-xl rounded-xl px-10">
           <div className="md:py-20 py-10">
             <div className="">
-              <p className="md:text-4xl text-3xl ">
+              <p className="md:text-4xl text-2xl ">
                 Ready to setup your <br /> Brand to
                 <span className="font-bold"> Next Level?</span>
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center gap-10">
-            <div className="flex justify-start items-center bg-black rounded-md border-2 border-black px-4 py-1">
+          <div className="flex md:justify-center items-center md:gap-10 gap-5 flex-col ">
+            <div className="flex justify-start items-center bg-black rounded-md border-2 border-black px-4 py-1 ">
               <div className="flex justify-center items-center">
                 <div className="w-6 ms-4">
                   <img src="./assets/home/icon-5.png" alt="" />
                 </div>
-                <button className="flex justify-center  items-center text-white px-4 py-2 text-lg">
+                <button className="flex justify-center items-center text-white px-4 py-2 text-lg">
                   Book A Call
                 </button>
               </div>
@@ -39,7 +39,7 @@ function Footer() {
           </div>
         </section>
 
-        <section className="w-full my-8 flex justify-between items-center">
+        <section className="w-full my-8 flex md:justify-between items-center flex-col gap-4">
           <div className="flex justify-start items-center w-28 ">
             <img
               src="./assets/home/logo-3.jpeg"
@@ -55,7 +55,7 @@ function Footer() {
               <p className="text-orange-600">Patelvishesh089@gmail.com</p>
             </div>
           </div>
-          <div className="flex flex-row justify-center items-center gap-2 text-2xl text-white">
+          <div className="flex md:flex-row justify-center items-center gap-2 text-2xl text-white ">
             <div className="">
               <FaFacebookSquare />
             </div>

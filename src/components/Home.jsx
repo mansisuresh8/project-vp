@@ -426,18 +426,18 @@ function Home() {
           </div>
         </div>
 
-        <div className="py-16">
+        <div className="md:py-16 py-4">
           <div className="flex justify-start items-center px-4 py-1">
             <p className="md:text-4xl text-2xl text-white">About</p>
           </div>
-          <div className="my-8">
+          <div className="md:my-8 my-4 mx-4">
             <p className="text-white md:text-5xl text-3xl">
               A website that leaves a lasting <br />{" "}
               <span className="text-orange-600">impression!</span>
             </p>
           </div>
           <div>
-            <p className="text-white md:text-lg text-sm">
+            <p className="text-white md:text-lg text-sm mx-4">
               Your website is your digital storefront, and it should create an
               unforgettable impression. Let me design and develop a website that
               reflects your brand's personality and creates a lasting impression

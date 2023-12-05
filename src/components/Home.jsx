@@ -11,7 +11,7 @@ function Home() {
       {/* hero section */}
 
       <section className=" bg-black flex justify-between items-center py-4 px-4 md:px-20 relative flex-col md:flex-row">
-        <div className="py-16">
+        <div className="md:py-16 py-2">
           <div className=" w-full px-4 py-6 flex flex-col justify-center items-start">
             <div className="flex justify-between items-center text-lg text-red-700 border rounded border-red-500 px-4 py-1 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
               <div>
@@ -76,9 +76,9 @@ function Home() {
 
       {/* Vedio Section */}
 
-      <section className="bg-black flex justify-center items-center rounded md:mx-20 mx-px">
+      <section className="bg-black flex justify-center items-center rounded md:mx-20 ">
         <div className="">
-          <p className="md:text-4xl text-1xl text-white text-center py-20">
+          <p className="md:text-4xl text-1xl text-white text-center md:py-20 py-2">
             Convey your brand story through unforgettable visual design. <br />
             Captivate your audience and retain engagement with <br />
             sleek
@@ -177,8 +177,8 @@ function Home() {
       <section className="my-16 bg-[url('./project-vp/assets/home/bg-explore.png')] bg-cover h-[90dvh] bg-no-repeat	bg-center	">
         <div className="bg-black w-full h-full opacity-70 flex justify-center items-center py-8">
           <div className="text-white">
-            <p className="text-5xl font-bold">Explore Projects </p>
-            <p className="my-8 text-center">
+            <p className="text-5xl font-bold text-center">Explore Projects </p>
+            <p className="my-8 md:text-center text-center">
               I create visual design that elevate your brand and <br /> attract
               more customers.
             </p>
@@ -357,26 +357,26 @@ function Home() {
             <span className="text-orange-600 font-bold"> Time</span>.
           </p>
         </div>
-        <div className="flex justify-center items-star flex-col items-center md:flex-row">
-          <div className="w-1/2">
+        <div className="flex md:justify-center items-star flex-col md:items-center justify-between  md:flex-row">
+          <div className="w-1/2 md:order-none order-2 ">
             <img
               src="./assets/home/photo-3.png"
               alt=""
-              className="object-contain w-full"
+              className="md:object-contain w-full"
             />
           </div>
-          <div className="w-full">
+          <div className="w-full md:order-none">
             <img
               src="./assets/home/photo-4.png"
               alt=""
-              className="object-contain w-full"
+              className="md:object-contain w-full"
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 md:order-none order-3">
             <img
               src="./assets/home/photo-5.png"
               alt=""
-              className="object-contain w-full"
+              className="md:object-contain w-full"
             />
           </div>
         </div>
@@ -427,7 +427,7 @@ function Home() {
         </div>
 
         <div className="md:py-16 py-4">
-          <div className="flex justify-start items-center px-4 py-1">
+          <div className="flex md:justify-start justify-center items-center px-4 py-1">
             <p className="md:text-4xl text-2xl text-white">About</p>
           </div>
           <div className="md:my-8 my-4 mx-4">

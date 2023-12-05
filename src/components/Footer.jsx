@@ -10,7 +10,7 @@ import {
 function Footer() {
   return (
     <div className="bg-black flex justify-center items-center ">
-      <section className="flex justify-center items-center md:py-20 py-10 px-10 flex-col w-full md:px-20">
+      <section className="flex justify-center items-center md:py-20 py-10 px-5 flex-col w-full md:px-20">
         <section className=" bg-white flex flex-col md:flex-row justify-between items-center w-full border shadow-xl rounded-xl px-10">
           <div className="md:py-20 py-10">
             <div className="">
@@ -20,7 +20,7 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div className="flex md:justify-center items-center md:gap-10 gap-5 flex-col ">
+          <div className="flex justify-center items-center md:gap-10 gap-5 flex-col md:flex-row">
             <div className="flex justify-start items-center bg-black rounded-md border-2 border-black px-4 py-1 ">
               <div className="flex justify-center items-center">
                 <div className="w-6 ms-4">
@@ -31,16 +31,16 @@ function Footer() {
                 </button>
               </div>
             </div>
-            <div className="">
-              <button className="text-black-700  rounded-md border-2 border-black px-8 py-3">
+            <div className="md:pb-0 pb-4">
+              <button className="text-black-700  rounded-md border-2 border-black px-14 py-3">
                 Contact Me
               </button>
             </div>
           </div>
         </section>
 
-        <section className="w-full my-8 flex md:justify-between items-center flex-col gap-4">
-          <div className="flex justify-start items-center w-28 ">
+        <section className="w-full my-8 flex justify-between items-center md:flex-row flex-col md:gap-4 gap-2">
+          <div className="flex justify-start items-center w-32 ">
             <img
               src="./assets/home/logo-3.jpeg"
               alt=""

@@ -176,7 +176,7 @@ function Home() {
 
       {/* Explore Projects */}
 
-      <section className="my-16 bg-[url('./project-vp/assets/home/bg-explore.png')] bg-cover h-[50dvh] md:h-[90dvh] bg-no-repeat bg-center">
+      <section className="my-16 bg-[url('./assets/home/bg-explore.png')] bg-cover h-[50dvh] md:h-[90dvh] bg-no-repeat bg-center">
         <div className="bg-black w-full h-[50dvh] md:h-[90dvh] opacity-70 flex justify-center items-center px-4 py-8">
           <div className="text-white w-full md:w-1/3">
             <p className=" text-xl md:text-5xl font-bold text-center">

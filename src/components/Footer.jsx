@@ -72,7 +72,7 @@ function Footer() {
         </section>
         <section className="border-t-2 border-white w-full">
           <div className="flex justify-center items-center py-10">
-            <p className="text-white">Developed with 🧡 by Aman Kashyap</p>
+            <p className="text-white">Developed with 🧡 by Mansi</p>
           </div>
         </section>
       </section>

@@ -76,21 +76,23 @@ function Home() {
 
       {/* Vedio Section */}
 
-      <section className="bg-black flex justify-center items-center rounded md:mx-20 ">
-        <div className="">
-          <p className="md:text-4xl text-1xl text-white text-center md:py-20 py-2">
-            Convey your brand story through unforgettable visual design. <br />
-            Captivate your audience and retain engagement with <br />
-            sleek
-            <span className="font-bold text-orange-700"> UI/UX</span>.
-          </p>
-          <div className="flex justify-center items-center w-full ">
+      <section className="bg-black flex justify-center items-center rounded">
+        <div className="w-full flex justify-center items-center flex-col">
+          <div className="w-full md:w-2/3">
+            <p className="md:text-4xl text-1xl text-white text-center md:py-20 py-8 px-4">
+              Convey your brand story through unforgettable visual design.
+              Captivate your audience and retain engagement with sleek
+              <span className="font-bold text-orange-700"> UI/UX</span>.
+            </p>
+          </div>
+
+          <div className="flex justify-center items-center w-full md:px-10">
             <video
               src="./assets/home/video-1.mp4"
               autoPlay
               loop
               muted
-              className="w-full md:px-52 md:py-20 px-70 py-28"
+              className="w-full md:py-20 px-70"
             ></video>
           </div>
         </div>
@@ -174,13 +176,15 @@ function Home() {
 
       {/* Explore Projects */}
 
-      <section className="my-16 bg-[url('./project-vp/assets/home/bg-explore.png')] bg-cover h-[90dvh] bg-no-repeat	bg-center	">
-        <div className="bg-black w-full h-full opacity-70 flex justify-center items-center py-8">
-          <div className="text-white">
-            <p className="text-5xl font-bold text-center">Explore Projects </p>
-            <p className="my-8 md:text-center text-center">
-              I create visual design that elevate your brand and <br /> attract
-              more customers.
+      <section className="my-16 bg-[url('./project-vp/assets/home/bg-explore.png')] bg-cover h-[50dvh] md:h-[90dvh] bg-no-repeat bg-center">
+        <div className="bg-black w-full h-[50dvh] md:h-[90dvh] opacity-70 flex justify-center items-center px-4 py-8">
+          <div className="text-white w-full md:w-1/3">
+            <p className=" text-xl md:text-5xl font-bold text-center">
+              Explore Projects{" "}
+            </p>
+            <p className="my-8 md:text-center text-center flex justify-center items-center">
+              I create visual design that elevate your brand and attract more
+              customers.
             </p>
             <div className="flex justify-center items-center">
               <button className="flex justify-center items-center bg-white text-black rounded-full px-8 py-2 text-lg">
@@ -357,22 +361,22 @@ function Home() {
             <span className="text-orange-600 font-bold"> Time</span>.
           </p>
         </div>
-        <div className="flex md:justify-center items-star flex-col md:items-center justify-between md:flex-row">
-          <div className="w-1/2 md:order-none order-2 float-none">
+        <div className="grid grid-cols-2 md:grid-cols-4 ">
+          <div className="w-full order-2 md:order-1">
             <img
               src="./assets/home/photo-3.png"
               alt=""
               className="object-contain w-full"
             />
           </div>
-          <div className="w-full md:order-none">
+          <div className="w-full order-1 md:order-2 col-span-2">
             <img
               src="./assets/home/photo-4.png"
               alt=""
               className="md:object-contain w-full"
             />
           </div>
-          <div className="w-1/2 md:order-none order-2 float-right ">
+          <div className="w-full order-3">
             <img
               src="./assets/home/photo-5.png"
               alt=""
